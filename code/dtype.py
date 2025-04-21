@@ -5,4 +5,3 @@ df = pd .read_csv(r'C:/Users/newta/OneDrive/Desktop/new-git-test/Clean--10-Indus
 print(df.dtypes)
 df[' คนงานรวม '] = pd.to_numeric(df[' คนงานรวม '], errors='coerce').fillna(0).astype(int)
 df[' แรงม้า '] = pd.to_numeric(df[' แรงม้า '], errors='coerce').fillna(0).astype(float)
-print(df.dtypes)
